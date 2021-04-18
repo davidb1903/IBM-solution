@@ -11,14 +11,18 @@ export default new Vuetify({
       },
     themes: {
       light: {
-        primary: '#ee44aa',
-        secondary: '#424242',
-        accent: '#82B1FF',
-        error: '#FF5252',
-        info: '#2196F3',
-        success: '#4CAF50',
-        warning: '#FFC107'
+        primary: '#00072d', 
+        primary2: '#001c55',
+        secondary: '#a6e1fa',
+        accent: '#0a2472',
+        error: '#ed254e',
+        info: '#0e6ba8',
+        success: '#c2eabd',
+        warning: '#f9dc5c'
       },
     },
+  },
+  icons: {
+    iconfont: 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
   },
 });
