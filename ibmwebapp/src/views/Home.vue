@@ -3,12 +3,12 @@
   <div class="d-none d-lg-block">
   <v-timeline :dense="$vuetify.breakpoint.smAndDown">
     <v-timeline-item
-      color="purple lighten-2"
+      color="accent"
       fill-dot
       right
     >
       <v-card>
-        <v-card-title class="purple lighten-2">
+        <v-card-title class="accent">
           <v-icon
             dark
             size="42"
@@ -17,8 +17,7 @@
             mdi-magnify
           </v-icon>
           <h2 class="display-1 white--text font-weight-light">
-            Title 1
-          </h2>
+Conoce las fechas del proceso electoral 2021          </h2>
         </v-card-title>
         <v-container>
           <v-row>
@@ -26,8 +25,9 @@
               cols="12"
               md="10"
             >
-              Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-col>
+           A partir de septiembre de 2020 inicia el Proceso Electoral para 
+           renovar la Cámara de Diputados y diversos cargos en los 32 estados
+            del país. La Jornada electoral se realizará el 6 de junio de 2021.</v-col>
             <v-col
               class="hidden-sm-and-down text-right"
               md="2"
@@ -42,15 +42,15 @@
     </v-timeline-item>
 
     <v-timeline-item
-      color="amber lighten-1"
+      color="primary2"
       fill-dot
       left
       small
     >
       <v-card>
-        <v-card-title class="amber lighten-1 justify-end">
+        <v-card-title class="primary2 justify-end">
           <h2 class="display-1 mr-4 white--text font-weight-light">
-            Title 2
+            Busca la casilla más cercana a tu localidad y ejerce tu voto
           </h2>
           <v-icon
             dark
@@ -65,13 +65,16 @@
               cols="12"
               md="8"
             >
-              Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit.
-            </v-col>
+         El INE en coordinación con los Organismos Públicos Locales desarrollarán las
+          actividades para la elección de Gubernaturas, Jefatura de Gobierno de la Ciudad 
+          de México, Congresos Locales, Ayuntamientos, Juntas Municipales y Alcaldías. 
+         </v-col>
             <v-col
               cols="12"
               md="4"
             >
-              Lorem ipsum dolor sit amet, no nam oblique veritus.
+              Consulta los detalles de cada proceso electoral local seleccionando la entidad 
+          de tu interés.
             </v-col>
           </v-row>
         </v-container>
@@ -79,32 +82,39 @@
     </v-timeline-item>
 
     <v-timeline-item
-      color="cyan lighten-1"
+      color="info"
       fill-dot
       right
     >
       <v-card>
-        <v-card-title class="cyan lighten-1">
+        <v-card-title class="info">
           <v-icon
             class="mr-4"
             dark
             size="42"
           >
-            mdi-email-outline
+            mdi-account-search
           </v-icon>
           <h2 class="display-1 white--text font-weight-light">
-            Title 3
+            Valida tu CURP 
           </h2>
         </v-card-title>
         <v-container>
           <v-row>
             <v-col
-              v-for="n in 3"
-              :key="n"
-              cols="12"
-              md="4"
+              cols="8"
+              md="10"
             >
-              Lorem ipsum dolor sit amet, no nam oblique veritus no nam oblique.
+            Valida que tu CURP se encuentre en el registro nacional de ciudadanos electorales
+
+             </v-col>
+                           <v-col
+              class="hidden-sm-and-down"
+              md="2"
+            >
+              <v-icon size="64">
+                mdi-card-account-details-star
+              </v-icon>
             </v-col>
           </v-row>
         </v-container>
@@ -112,21 +122,21 @@
     </v-timeline-item>
 
     <v-timeline-item
-      color="red lighten-1"
+      color="primary2"
       fill-dot
       left
       small
     >
       <v-card>
-        <v-card-title class="red lighten-1 justify-end">
+        <v-card-title class="primary2 justify-end">
           <h2 class="display-1 mr-4 white--text font-weight-light">
-            Title 4
+            Valida la vigencia de tu INE
           </h2>
           <v-icon
             dark
             size="42"
           >
-            mdi-account-multiple-outline
+            mdi-qrcode-scan
           </v-icon>
         </v-card-title>
         <v-container>
@@ -136,42 +146,53 @@
               md="2"
             >
               <v-icon size="64">
-                mdi-server-network
+                mdi-credit-card-scan-outline
               </v-icon>
             </v-col>
             <v-col
               cols="12"
               md="10"
             >
-              Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus.
-            </v-col>
+              Escanea tu INE para verificar su vigencia y permitir asegurar tu voto. En la parte trasera
+              encontraras un codigo QR que debes colocar frente a la camara.
+               </v-col>
           </v-row>
         </v-container>
       </v-card>
     </v-timeline-item>
 
     <v-timeline-item
-      color="green lighten-1"
+      color="info"
       fill-dot
       right
     >
       <v-card>
-        <v-card-title class="green lighten-1">
+        <v-card-title class="info">
           <v-icon
             class="mr-4"
             dark
             size="42"
           >
-            mdi-phone-in-talk
+            mdi-camera-account
           </v-icon>
           <h2 class="display-1 white--text font-weight-light">
-            Title 5
+            Verifitca tu Identidad
           </h2>
         </v-card-title>
         <v-container>
           <v-row>
             <v-col>
-              Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+             Sonrie y permite que nuestros datos biometrícos validen tu identidad 
+             con la información del sistema, rapido y seguro, con el objetivo de evitar
+             fraudes electorales.
+             </v-col>
+              <v-col
+              class="hidden-sm-and-down"
+              md="2"
+            >
+              <v-icon size="64">
+                mdi-fingerprint
+              </v-icon>
             </v-col>
           </v-row>
         </v-container>
@@ -179,9 +200,9 @@
     </v-timeline-item>
   </v-timeline>
        <v-row>
-     <v-col col="8" lg="8" md="12" >
+     <v-col col="12" lg="12" md="12" >
       <v-stepper v-model="etapa_validacion">
-          <v-stepper-header>
+          <v-stepper-header > 
             <v-stepper-step
               :complete="etapa_validacion > 1"
               step="1"
@@ -221,10 +242,11 @@
               </a>
                 <v-text-field
                   v-model="CURP"
-                  :rules="CURPRules"
-                  :counter="18"
+                  :rules="[rules.required,rules.counter]"
+                  counter
                   label="CURP"
-                  required
+                  maxlength="18"
+
                 ></v-text-field>
               </v-col>
 
@@ -234,12 +256,16 @@
 
               <v-btn
                 color="primary"
-                @click="etapa_validacion = 2"
+                @click="
+                validarCURP;
+              etapa_validacion = 2" 
+                :disabled="!valid"
               >
                 Continue
               </v-btn>
 
-              <v-btn text>
+              <v-btn text
+                @click="cancelar">
                 Cancel
               </v-btn>
             </v-stepper-content>
@@ -284,42 +310,6 @@
           </v-stepper-items>
         </v-stepper>
      </v-col>
-     <v-col col="4" lg="4" sm="12" class="d-none d-lg-block">
-         <v-card
-
-    color="info"
-    dark
-  >
-    <v-card-title>
-      <span class="title font-weight-light"></span>
-    </v-card-title>
-
-    <v-card-text class="headline font-weight-bold">
-      "Recuerda que tu voto es libre y secreto. Por un gobierno representativo"
-    </v-card-text>
-
-    <v-card-actions>
-      
-    </v-card-actions>
-  </v-card>
-           <v-card
-
-    color="info"
-    dark
-  >
-    <v-card-title>
-      <span class="title font-weight-light"></span>
-    </v-card-title>
-
-    <v-card-text class="headline font-weight-bold">
-      "Recuerda que tu voto es libre y secreto. Por un gobierno representativo"
-    </v-card-text>
-
-    <v-card-actions>
-      
-    </v-card-actions>
-  </v-card>
-     </v-col>
    </v-row>
   </div>
   <v-spacer></v-spacer>
@@ -341,24 +331,29 @@
       </v-stepper-step>
 
       <v-stepper-content step="1">
-            <v-form v-model="valid">
+            <v-form v-model="valid" ref="form" lazy-validation>
         <v-container>
                  <v-text-field
                   v-model="CURP"
-                  :rules="CURPRules"
-                  :counter="18"
+                  :rules="[rules.required,rules.counter]"
+                  counter
                   label="CURP"
-                  required
+                  maxlength="18"
+
                 ></v-text-field>
         </v-container>
       </v-form>
         <v-btn
-          color="primary"
-          @click="etapa_validacion = 2"
+                color="primary"
+                @click="
+                validarCURP;
+              etapa_validacion = 2"   
+                :disabled="!valid"
         >
           Continue
         </v-btn>
-        <v-btn text>
+        <v-btn text
+        @click="cancelar">
           Cancel
         </v-btn>
       </v-stepper-content>
@@ -461,6 +456,7 @@ import { required, minLength } from 'vuelidate/lib/validators'
       return {
         etapa_validacion: 1,
       model: 0,
+      CURP:"",
       colors: [
         'primary',
         'secondary',
@@ -468,14 +464,25 @@ import { required, minLength } from 'vuelidate/lib/validators'
         'red',
         'orange',
       ],
+      rules:{
+        required: value => !!value || 'Obligatorio',
+        counter: value => value.length >=17 || 'Inserte una CURP de 18 caracteres',
+        curp_formato: value => {
+          const pattern= /^([A-Z][AEIOUX][A-Z]{2}\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\d])(\d)$/
+            return pattern.test(Value) || "Formato de CURP invalido"
+        },
+      },
+      }
+      
+    },
+     methods: {
+      validar_CURP () {
+      this.$refs.form.validate()   
+      },
+      cancelar(){
+        this.$refs.form.resetValidation() 
+         this.$refs.form.reset() 
       }
     },
-    validations: {
-    CURP: {
-      required,
-      minLength: minLength(18)
     }
-  },
-    
-  }
 </script>
